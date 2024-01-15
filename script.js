@@ -127,9 +127,7 @@ pro2
 //     console.log('I will always execute')
 // })
 
-
 // program 8
-
 let pro4 = new Promise(function(resolve,reject){
     let a = 10
     let b = 5
@@ -156,6 +154,7 @@ pro4
 .finally(function(){
     console.log('i will always execute')
 })
+
 
 
 
